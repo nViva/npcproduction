@@ -1,3 +1,0 @@
-DBname: id17722748_npc
-DBusername: id17722748_npcproduction
-DBPassword: Adminprod@2021
