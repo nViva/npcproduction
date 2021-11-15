@@ -19,11 +19,28 @@
 
 <style>
 body {margin:0;font-family:Arial}
-
+#div_img{
+  height: 66px;
+  float: left;
+}
+#img{
+  height: 64px;
+  width: 64px;
+}
+#title{
+  height:100%;
+  text-align: center; 
+  font-weight: bolder;
+  font-size: 36px;
+  color: white;
+  background: #555;
+}
 .topnav {
   overflow: hidden;
   background-color: #333;
+  width: 100%;
 }
+
 
 .topnav a {
   float: left;
@@ -91,14 +108,7 @@ body {margin:0;font-family:Arial}
 .dropdown:hover .dropdown-content {
   display: block;
 }
-#title{
-  height:50px;
-  text-align: center; 
-  font-weight: bolder;
-  font-size: 36px;
-  color: white;
-  background: #555;
-}
+
 #user{
   font-weight: bolder;
   font-size: 18px;
@@ -106,6 +116,7 @@ body {margin:0;font-family:Arial}
   float: right;
   margin-top: 10px;
 }
+
 .footer {
    position: fixed;
    left: 0;
@@ -125,15 +136,25 @@ body {margin:0;font-family:Arial}
     float: right;
     display: block;
   }
-.topnav .head {
-    position: fixed;
-    
-      }
-#title{
-  font-size: 16px;
-}
 #user{
    font-size: 14px;
+}
+#div_img{
+  height: 66px;
+  float: left;
+}
+#img{
+  height: 64px;
+  width: 64px;
+}
+#title{
+ height: 64px;
+
+  text-align: center; 
+  font-weight: bolder;
+  font-size: 24px;
+  color: white;
+  background: #555;
 }
 
 }
@@ -158,6 +179,7 @@ body {margin:0;font-family:Arial}
     width: 100%;
     text-align: left;
   }
+
 }
 </style>
 <title>NPC Production Inventory System</title>
@@ -186,9 +208,8 @@ body {margin:0;font-family:Arial}
     <script src="../../assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-
+<div class="head"><div style="float: left" id="div_img"><img src="../../images/logo.jfif" style="" id="img"></div><div style="" id="title">NPC Production Inventory System</div></div>
 <div class="topnav" id="myTopnav">
-  <div class="head"><div style="float: left"><img src="../../images/logo.jfif" style="width: 100px;height: 100px;"></div><div style="" id="title">NPC Production Inventory System</div></div>
   <a href="../index1.php" class="active">Home</a>
   <a href="add_print.php" >Add Printing type</a>
   <a href="report1.php" >Reports</a>
